@@ -1,0 +1,20 @@
+{%extends "base.html" %}
+
+{%set titulo ="Entrar" %}
+
+{% block conteudo %}
+<form>
+    <div class="mb-3 form-floating">
+        <input class="form-control" type="email" name="email" id="email" placeholder=" ">
+        <label class="form-label" for="email">E-mail</label>
+    </div>
+    <div class="mb-3 form-floating">
+        <input class="form-control" type="password" name="senha" id="senha" placeholder=" ">
+        <label class="form-label" for="senha">Senha</label>
+    </div>
+    <div class="mb-3">
+        <button class="btn btn-dark btn-lg">Entrar</button>
+    </div>
+</form>
+
+{%endblock%}
